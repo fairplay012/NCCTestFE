@@ -119,3 +119,22 @@ ol:hover{
     float: left; 
     margin-right: 10px; 
 }
+
+@media (max-width: 768px) {
+    body {
+      display:flex;
+      flex-direction: column;
+    }
+    .side-bar{
+        width: 100%;
+    }
+    .content div{
+        width: 100%;
+    }
+    .items{
+        display: none;
+    }
+    .items div{
+        width: 100%;
+    }
+  }
